@@ -1,0 +1,34 @@
+chktex exit: 0
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex)
+ \write18 enabled.
+entering extended mode
+=== TeX engine is 'pdfTeX'
+Latexmk: applying rule 'cusdep nlo nls output'...
+For rule 'cusdep nlo nls output', running '&do_cusdep( nlo2nls )' ...
+Latexmk: applying rule 'makeindex output.idx'...
+Latexmk: applying rule 'bibtex output'...
+For rule 'bibtex output', running '&run_bibtex(  )' ...
+This is BibTeX, Version 0.99d (TeX Live 2018)
+The top-level auxiliary file: output.aux
+The style file: abbrv.bst
+Database file #1: biblio.bib
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex)
+ \write18 enabled.
+entering extended mode
+=== TeX engine is 'pdfTeX'
+Latexmk: applying rule 'bibtex output'...
+For rule 'bibtex output', running '&run_bibtex(  )' ...
+This is BibTeX, Version 0.99d (TeX Live 2018)
+The top-level auxiliary file: output.aux
+The style file: abbrv.bst
+Database file #1: biblio.bib
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex)
+ \write18 enabled.
+entering extended mode
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets (/compile/output.pdf) are up-to-date
+qpdf exit code=0
+Renaming optimised file to output.pdf

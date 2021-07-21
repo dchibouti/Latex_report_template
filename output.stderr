@@ -1,0 +1,126 @@
+ChkTeX v1.7.6 - Copyright 1995-96 Jens T. Berger Thielemann.
+Compiled with PCRE regex support.
+No errors printed; No warnings printed; 317 user suppressed warnings; No line suppressed warnings.
+Latexmk: This is Latexmk, John Collins, 25 October 2018, version: 4.61.
+Latexmk: Changing directory to '/compile/'
+Rule 'pdflatex': Rules & subrules not known to be previously run:
+   pdflatex
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+      'pdflatex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=batchmode -recorder -output-directory="/compile" --jobname="output"  "main.tex"'
+------------
+'output.fls' and '/compile/output.fls' are identical (not copied) at /usr/local/texlive/2018/bin/x86_64-linux/latexmk line 7507.
+Latexmk: Index file 'output.idx' was written
+Latexmk: Missing input file: 'output.nls' from line
+  'No file output.nls.'
+Latexmk: Non-existent bbl file 'output.bbl'
+ No file output.bbl.
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: List of undefined refs and citations:
+  Citation `CHIBOUTI2020' on page 8 undefined on input line 206
+  Citation `CHIBOUTI2020' on page 9 undefined on input line 269
+  Citation `TheArt' on page 10 undefined on input line 287
+  Reference `Newton' on page 8 undefined on input line 186
+  Reference `fig:periodic' on page 8 undefined on input line 216
+  Reference `tab:tableau1' on page 9 undefined on input line 246
+Latexmk: Found bibliography file(s) [biblio.bib]
+Rule 'cusdep nlo nls output': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      'output.nlo'
+   Non-existent destination files:
+      'output.nls'
+------------
+Run number 1 of rule 'cusdep nlo nls output'
+------------
+This is makeindex, version 2.15 [TeX Live 2018] (kpathsea + Thai support).
+Scanning style file /usr/local/texlive/2018/texmf-dist/makeindex/nomencl/nomencl.ist............done (12 attributes redefined, 3 ignored).
+Scanning input file output.nlo....done (10 entries accepted, 0 rejected).
+Sorting entries....done (32 comparisons).
+Generating output file output.nls....done (18 lines written, 0 warnings).
+Output written in output.nls.
+Transcript written in output.nlg.
+Rule 'makeindex output.idx': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      'output.idx'
+   Non-existent destination files:
+      'output.ind'
+------------
+Run number 1 of rule 'makeindex output.idx'
+------------
+------------
+Running 'makeindex  -o "output.ind" "output.idx"'
+------------
+This is makeindex, version 2.15 [TeX Live 2018] (kpathsea + Thai support).
+Scanning input file output.idx...done (0 entries accepted, 0 rejected).
+Nothing written in output.ind.
+Transcript written in output.ilg.
+Rule 'bibtex output': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      'output.aux'
+   Non-existent destination files:
+      'output.bbl'
+------------
+Run number 1 of rule 'bibtex output'
+------------
+------------
+Running 'bibtex  "output"'
+------------
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/compile/output.aux'
+      'output.aux'
+      'output.bbl'
+      'output.ind'
+      'output.nls'
+      'output.out'
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=batchmode -recorder -output-directory="/compile" --jobname="output"  "main.tex"'
+------------
+'output.fls' and '/compile/output.fls' are identical (not copied) at /usr/local/texlive/2018/bin/x86_64-linux/latexmk line 7507.
+Latexmk: Index file 'output.idx' was written
+Latexmk: Found input bbl file 'output.bbl'
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to 'output.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `CHIBOUTI2020' on page 10 undefined on input line 269
+  Citation `CHIBOUTI2020' on page 6 undefined on input line 4
+  Citation `CHIBOUTI2020' on page 9 undefined on input line 206
+  Citation `TheArt' on page 11 undefined on input line 287
+Latexmk: Found bibliography file(s) [biblio.bib]
+Rule 'bibtex output': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      'output.aux'
+------------
+Run number 2 of rule 'bibtex output'
+------------
+------------
+Running 'bibtex  "output"'
+------------
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/compile/output.aux'
+      'output.aux'
+      'output.lof'
+      'output.lot'
+      'output.out'
+      'output.toc'
+------------
+Run number 3 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=batchmode -recorder -output-directory="/compile" --jobname="output"  "main.tex"'
+------------
+'output.fls' and '/compile/output.fls' are identical (not copied) at /usr/local/texlive/2018/bin/x86_64-linux/latexmk line 7507.
+Latexmk: Index file 'output.idx' was written
+Latexmk: Found input bbl file 'output.bbl'
+Latexmk: Found bibliography file(s) [biblio.bib]
+Latexmk: Undoing directory change
